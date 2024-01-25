@@ -18,6 +18,8 @@ export class Cicle {
 
     // Métode que retorna un String amb les dades del cicle
     toString() {
+        this.moduls.sort();
+
         return (`nom: ${this.nom}
 categoria: ${this.categoria}
 numAlumnes: ${this.numAlumnes}
